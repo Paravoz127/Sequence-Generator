@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 require 'sequence_generator'
 
@@ -44,5 +46,4 @@ describe 'I want to ' do
     end
     expect(sg.next_item).to eq '312211'
   end
-
 end
